@@ -130,7 +130,7 @@ $('a[href*="#"]')
         event.preventDefault();
         jQuery('.main-menu').collapse('hide');
         $('html, body').animate({
-          scrollTop: target.offset().top - 100
+          scrollTop: target.offset().top - 70
         }, 1000, function() {
           // Callback after animation
           // Must change focus!
